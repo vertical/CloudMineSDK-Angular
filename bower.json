@@ -1,0 +1,21 @@
+{
+  "name": "angular-cloudmine",
+  "version": "0.1.0",
+  "authors": [
+    "CloudMine, Inc."
+  ],
+  "description": "CloudMine directives and filters for AngularJS",
+  "main": "angular-cloudmine.js",
+  "homepage": "http://cloudmine.me",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "cloudmine": "~0.9.14"
+  }
+}
