@@ -9,7 +9,7 @@ You can install angular-cloudmine into your AngularJS application in a few ways.
 
 # Usage
 Include angular-cloudmine.js in your application:
-`<script src="node_modules/ng-cloudmine/dist/angular-cloudmine.js"></script>`
+`<script src="node_modules/angular-cloudmine/dist/angular-cloudmine.js"></script>`
 
 Add the module `angularCloudmine` as a dependency to your app module:
 `angular.module('ngCloudmineTestApp', ['angularCloudmine'])`
