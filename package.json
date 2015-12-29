@@ -1,6 +1,6 @@
 {
   "name": "ng-cloudmine",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "An angular module for the CloudMine SDK",
   "main": "ng-cloudmine.js",
   "files": ["dist"],
