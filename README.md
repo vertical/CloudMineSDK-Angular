@@ -5,7 +5,7 @@ AngularJS wrapper for [CloudMine JS](cloudmine.me).
 # Installation
 You can install angular-cloudmine into your AngularJS application in a few ways.
 * Via npm: `npm install angular-cloudmine --save`
-* Directly from (Github)[https://github.com/cloudmine/angular-cloudmine] (this is best for local development)
+* Directly from [Github](https://github.com/cloudmine/angular-cloudmine) (this is best for local development)
 
 # Usage
 Include angular-cloudmine.js in your application:
