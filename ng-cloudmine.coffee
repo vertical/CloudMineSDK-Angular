@@ -9,12 +9,19 @@ angular
         @ws = ws
 
       api: (action, options, data)->
-        $q.when this.ws.api(action, options, data)
-
-      get: (keys)->
         deferred = $q.defer()
+        options = @ws.options if not options
+        @ws.api(keys, options).on 'success', (data)->
+          deferred.resolve(data)
+        .on 'error', (err)->
+          deferred.reject(err)
 
-        @ws.get(keys, @ws.options).on 'success', (data)->
+        deferred.promise
+
+      get: (keys, options)->
+        deferred = $q.defer()
+        options = @ws.options if not options
+        @ws.get(keys, options).on 'success', (data)->
           deferred.resolve(data)
         .on 'error', (err)->
           deferred.reject(err)
